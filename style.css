@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and general styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    padding-right: 20px;
+  }
+  
+  /* Hero Section styles */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* Bio Section styles */
+  #bio {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #bio h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #bio p {
+    font-size: 1.1em;
+  }
+  
+  /* Resume Section styles */
+  #resume {
+    background-color: #fafafa;
+    padding: 40px;
+  }
+  
+  #resume h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #resume ul {
+    list-style-type: none;
+    font-size: 1.1em;
+  }
+  
+  #resume li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section styles */
+  #contact {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #contact label {
+    font-size: 1.1em;
+  }
+  
+  #contact input,
+  #contact textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    padding: 12px;
+    font-size: 1.1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Dark Mode styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #444;
+  }
+  
+  body.dark-mode .hero {
+    background-color: #1f1f1f;
+  }
+  
+  body.dark-mode .profile-pic {
+    border: 3px solid #fff;
+  }
+  
+  body.dark-mode #bio, 
+  body.dark-mode #resume, 
+  body.dark-mode #contact {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode footer {
+    background-color: #444;
+  }
